@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #F8F8F8;
+    font-family: 'Poppines', sans-serif;
+}
+
+/* Navigation */
+/* Relocate navigation btn */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 30px 0px;
+}
+
+/* Text in navigation */
+nav a {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.1s ease 0s;
+}
+
+/* Applied transition */
+nav a:hover {
+    transform: translateY(-5px);
+    text-decoration: underline;
+}
+
+/* Logo */
+nav a img {
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 3px;
+}
+
+/*  */
+/* Path */
+.upper-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12%;
+    font-size: 16px;
+}
+
+.path {
+    display: flex;
+    gap: 12px;
+}
+
+.path a {
+    color: black;
+}
+
+.upper-menu {
+    display: flex;
+    gap: 12px;
+}
+
+.upper-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.upper-menu a:hover {
+    text-decoration: underline;
+}
+
+/*  */
+/* Big-Container */
+.mid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 24px;
+}
+
+/* Img - Container */
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.left-images {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.left-images img {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.right-images {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 500px;
+}
+
+.right-images img {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.bottom-images {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+/* Overview */
+.overview-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.title p {
+    font-size: 16px;
+}
+
+.screen {
+    display: flex;
+    gap: 24px;
+    font-size: 16px;
+}
+
+.screen p {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 16px;
+}
+
+.overview ul,
+li {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.laptop-color {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.laptop-color button {
+    width: 16px;
+    height: 16px;
+    background-color: black;
+    border-radius: 100px;
+}
+
+/* Button-group */
+.button-group {
+    display: flex;
+    gap: 12px;
+}
+
+.add-to-cart button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 40px;
+    border-radius: 5px;
+    background-color: black;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.95);
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.add-to-cart button:hover {
+    transform: translateY(-2px);
+}
+
+.share button {
+    display: flex;
+    align-items: center;
+    padding: 12px 40px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.share button:hover {
+    transform: translateY(-2px);
+}
+
+/*  */
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+/* Footer-top */
+.footer-top {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+
+.innovation-icon {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 0;
+    gap: 40px;
+}
+
+.payment-icon {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    align-items: center;
+    gap: 40px;
+    margin: -10px;
+}
+
+.order-icon {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Contact-footer */
+.contact-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 4px;
+}
+
+/* 1 */
+.sub-container-one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+
+.follow {
+    display: flex;
+    gap: 24px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.phone-num-info {
+    display: flex;
+    gap: 24px;
+}
+
+.email-info {
+    display: flex;
+    gap: 24px;
+}
+
+/* 2 */
+
+.sub-container-two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 36px;
+    font-size: 16px;
+}
+
+.input-box input {
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid black;
+    padding: 12px 40px;
+    border-radius: 5px;
+}
+
+.input-box button {
+    background-color: rgba(0, 0, 0, 1);
+    padding: 12px 40px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.input-box button:hover {
+    transform: translateY(-2px);
+}
+
+.policy {
+    display: flex;
+    gap: 16px;
+}
+
+.policy a {
+    color: black;
+    transition: transform 0.1s ease;
+}
+
+.policy a:hover {
+    transform: translateY(-2px);
+    text-decoration: none;
+}
